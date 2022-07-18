@@ -1,0 +1,7 @@
+The_Last_Supper.jpg
+The_Last_Supper.jpg:Zone.Identifier
+carpeta
+file-1
+file-2
+texto-imag.txt
+texto.txt

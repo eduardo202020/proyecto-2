@@ -1,0 +1,4 @@
+./texto-1.txt
+./archivo.txt
+./file.txt
+./text_docs.txt

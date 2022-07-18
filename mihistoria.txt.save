@@ -1,0 +1,1000 @@
+qq  114  clear
+  115  ls
+  116  cd proyectos/proyecto-2
+  117  ls
+  118  npx create-react-app ejemplo-desde-ubuntu
+  119  sudo npx create-react-app ejemplo-desde-ubuntu
+  120  cd ejemplo-desde-ubuntu/
+  121  clear
+  122  npm start
+  123  sudo npm start
+  124  npm start
+  125  clear
+  126  pwd
+  127  cd ..
+  128  ls
+  129  rm -rf ejemplo-desde-ubuntu/
+  130  clear
+  131  ls
+  132  sudo rm -rf ejemplo-desde-ubuntu/
+  133  clear
+  134  ls
+  135  clear
+  136  cd ..
+  137  cd ~
+  138  clear
+  139  git -v
+  140  git --version
+  141  sudo apt install git 
+  142  clear
+  143  ssh-keygen -t rsa -b 4096 -C "jguevaral@uni.pe"
+  144  eval "$(ssh-agent -s)"
+  145  clear
+  146  ssh-copy-id jguevaral@uni.pe
+  147  clear
+  148  cd ~
+  149  clear
+  150  ls
+  151  cd .ssh
+  152  ls
+  153  cat id_rsa.pub
+  154  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC8hk6dD10SXSM1rB9Z+jMenM4an3cO9FOQnRGLukltWTwZichGOu56/paToGIeYuI2ciI5jh2vigeBCr1TCmvq8BcO1XrdS52ko3Eh3Z0DQAwFYEnNH1DRevaY3ks6hwc+QOTQ/0rtxA6yAEp8/g4lhCQyUj4pUCov3qzXoPSFxgY2izCPBgLGZ+z1wSvFWC2KhXt7ZWyJbBIGR0QZlTkQoxZUTlBNehSYNkvNqbxk22W/JQpe6MXmktL29fWOwtqKZzpwotLdg3hn333NsH/jnX2MB8HKzpIiZDs265IVQhi6awSRU1BBc6+QwV6ySD49PC+BjuE/luZxGJk46BvXNYheZWhvXWjf/Da9ndJM9Zu9bAh+XC7GOswG7+GXM4iSrAUGe4OP6/n9znouA7u6fAX0xf2cLjjQaSwQ0ixzhCbFJC17ekSDbXxtumrSXZ/aYCHuG5RN+Pdbj0FJlxDHfEf7PgeRhY3AZblbgkx135zdd0I1Zx6l4Jq5c2DQGnU/4IT6pT25Klb+ZOyBNCInJMZw0PJw9ot3rC5UZDdEQOFMgZDonJz9FTbnr5PMK732f8BHkDLWzmuZrAVsQFm6T2hvC8KrRpex5/LhiJ0hufGCt/G/5oFXyO7PEj0WVEhTkg4H5rWQ2huxxl2z3UIX7dBczdbjeAvQZUeJosSsVw== jguevaral@uni.pe
+  155  clear
+  156  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC8hk6dD10SXSM1rB9Z+jMenM4an3cO9FOQnRGLukltWTwZichGOu56/paToGIeYuI2ciI5jh2vigeBCr1TCmvq8BcO1XrdS52ko3Eh3Z0DQAwFYEnNH1DRevaY3ks6hwc+QOTQ/0rtxA6yAEp8/g4lhCQyUj4pUCov3qzXoPSFxgY2izCPBgLGZ+z1wSvFWC2KhXt7ZWyJbBIGR0QZlTkQoxZUTlBNehSYNkvNqbxk22W/JQpe6MXmktL29fWOwtqKZzpwotLdg3hn333NsH/jnX2MB8HKzpIiZDs265IVQhi6awSRU1BBc6+QwV6ySD49PC+BjuE/luZxGJk46BvXNYheZWhvXWjf/Da9ndJM9Zu9bAh+XC7GOswG7+GXM4iSrAUGe4OP6/n9znouA7u6fAX0xf2cLjjQaSwQ0ixzhCbFJC17ekSDbXxtumrSXZ/aYCHuG5RN+Pdbj0FJlxDHfEf7PgeRhY3AZblbgkx135zdd0I1Zx6l4Jq5c2DQGnU/4IT6pT25Klb+ZOyBNCInJMZw0PJw9ot3rC5UZDdEQOFMgZDonJz9FTbnr5PMK732f8BHkDLWzmuZrAVsQFm6T2hvC8KrRpex5/LhiJ0hufGCt/G/5oFXyO7PEj0WVEhTkg4H5rWQ2huxxl2z3UIX7dBczdbjeAvQZUeJosSsVw== jguevaral@uni.pe
+  157  clear
+  158  ls
+  159  cd ~
+  160  ls
+  161  cd proyectos/
+  162  ls
+  163  cd proyecto-2
+  164  ls
+  165  touch index.html
+  166  sudo tounch index.html
+  167  sudo touch index.html
+  168  ls
+  169  code .
+  170  sudo chown -R eduardo26 ~/proyectos
+  171  clear
+  172  ls
+  173  touch index.css
+  174  clear
+  175  code .
+  176  cat index.html
+  177  code .
+  178  git init
+  179  git status
+  180  git add
+  181  git add .
+  182  git status
+  183  git commit -m "mi primer commit"
+  184  clear
+  185  git config --global user.email "jguevaral@uni.pe"
+  186  git config --global user.name Eduardo26
+  187  git config --edit --global
+  188  clear
+  189  git commit -m "mi primer commit"
+  190  clear
+  191  git status
+  192  echo "# proyecto-2" >> README.md
+  193  git add README.md
+  194  git branch -M main
+  195  git remote add origin git@github.com:eduardo202020/proyecto-2.git
+  196  git push -u origin main
+  197  clear
+  198  cat ~/.gitconfig
+  199  clear
+  200  code .
+  201  git status
+  202  git add .
+  203  git commit -m "segundo commit"
+  204  clar
+  205  clear
+  206  git push
+  207  clear
+  208  git status
+  209  git commi -am "mi primer commit"
+  210  git commit -am "mi primer commit"
+  211  clear
+  212  git remote
+  213  git remote -v
+  214  git -v
+  215  git --version
+  216  git help
+  217  git -v
+  218  git --version
+  219  sudo apt-get update
+  220  sudo apt-get upgrade
+  221  clear
+  222  cd 
+  223  ls
+  224  cd proyectos/
+  225  ls
+  226  cd proyecto-2
+  227  ls
+  228  code .
+  229  cd 
+  230  ls
+  231  clear
+  232  ls
+  233  cd /
+  234  ls
+  235  cd home/
+  236  ls
+  237  cd ~
+  238  ls
+  239  cd /home
+  240  ls
+  241  cd eduardo26/
+  242  ls
+  243  cd 
+  244  ls
+  245  cd 
+  246  ls
+  247  cd /
+  248  ls
+  249  cd home
+  250  ls
+  251  cd eduardo26/
+  252  ls
+  253  cd proyectos/
+  254  ls
+  255  clear
+  256  j
+  257  asdf
+  258  clear
+  259  ls
+  260  ls -l
+  261  ls -la
+  262  ls -al
+  263  history
+  264  clear
+  265  ls -lh
+  266  cd 
+  267  ls
+  268  cd proyectos/
+  269  ls
+  270  cd proycto-2
+  271  ls
+  272  cd proyecto
+  273  cd proyecto-2
+  274  ls
+  275  pwd
+  276  ls -lh
+  277  pwd
+  278  ls
+  279  file index.css
+  280  ls
+  281  ls -lS
+  282  tree
+  283  sudo apt install tree
+  284  tree
+  285  mkdir imagenes
+  286  ls
+  287  cd imagenes/
+  288  touch texto.txt
+  289  cd ..
+  290  tree
+  291  cd imagenes/
+  292  ls
+  293  cp texto.txt text-2
+  294  ls
+  295  rm text-2
+  296  ls
+  297  cp texto.txt texto-2.txt
+  298  ls
+  299  mv texto-2.txt ..
+  300  ls
+  301  cd ..
+  302  ls
+  303  mv texto-2.txt texto-1.txt
+  304  ls
+  305  cp texto-1.txt texto-2.txt
+  306  ls
+  307  ls -l
+  308  rm texto-2.txt 
+  309  ls
+  310  cp texto-1.txt texto-2.txt
+  311  ls
+  312  rm -i texto-2.txt 
+  313  ls
+  314  rm -i texto-2.txt 
+  315  ls
+  316  ls imagenes/
+  317  cd imagenes/
+  318  ls
+  319  touch file-1 file-2
+  320  ñs
+  321  ls
+  322  cd ..
+  323  ls imagenes/
+  324  ls
+  325  mkdir file-1
+  326  ls
+  327  mv file-1/ imagenes/
+  328  ls
+  329  mv file-1/ carpeta/
+  330  ls
+  331  mv carpeta/ imagenes/
+  332  ls
+  333  ls imagenes/
+  334  ls imagenes/carpeta/
+  335  cd imagenes/carpeta/
+  336  ls
+  337  touch file-1 file-2 file-3
+  338  ls
+  339  cd ..
+  340  ls
+  341  ls imagenes/carpeta/
+  342  less --help
+  343  less help
+  344  help
+  345  help less
+  346  less
+  347  less --help
+  348  ls
+  349  less index.html
+  350  open index.html
+  351  sudo apt install open
+  352  open index.html
+  353  xdg-open index.html
+  354  ls
+  355  cat index.html
+  356  clear
+  357  xdg-open index.html
+  358  ls
+  359  xdg-open README.md 
+  360  clear
+  361  xdg-open README.md 
+  362  clear
+  363  nautilus
+  364  sudo apt install nautilus
+  365  clear
+  366  nautilus
+  367  clear
+  368  ls
+  369  wslview index.html
+  370  explorer.exe
+  371  nautilus
+  372  clear
+  373  wslview texto-1.txt 
+  374  ls
+  375  wlview index.css
+  376  wslview index.css
+  377  wslview imagenes/
+  378  wslview imagenes
+  379  nautilus 
+  380  explorer.exe
+  381  explorer.exe .
+  382  explorer.exe imagenes
+  383  open imagenes
+  384  help less
+  385  less texto-1.txt 
+  386  ls
+  387  clear
+  388  help cd
+  389  clear
+  390  man cd 
+  391  man cd
+  392  man ls
+  393  man rm
+  394  man alias
+  395  info alias
+  396  ls
+  397  touch file.txt file.html file.css 
+  398  ls
+  399  ls -l
+  400  ls -ls
+  401  ls -lh
+  402  ls *.txt
+  403  ls file*
+  404  ls file???
+  405  ls file??
+  406  ls file?
+  407  ls file????
+  408  ls
+  409  txt
+  410  alias txt='ls -lahS *.txt'
+  411  txt
+  412  ls
+  413  ls -l
+  414  tree
+  415  cd /
+  416  ls
+  417  nutilos
+  418  tree
+  419  clear
+  420  ls
+  421  cd home/
+  422  ls
+  423  cd eduardo26/
+  424  ls
+  425  cd proyectos/
+  426  ls
+  427  tree
+  428  ls
+  429  cd proyecto
+  430  ls
+  431  cd proyecto-2
+  432  ls
+  433  less README.md 
+  434  less index.html 
+  435  less index.css
+  436  less texto-1.txt 
+  437  clear
+  438  ls
+  439  vim texto-1.txt 
+  440  clear
+  441  less texto-1.txt 
+  442  clear
+  443  xdg-open index.html
+  444  ls
+  445  xdg-open index.html 
+  446  nautilus
+  447  clear
+  448  xdg-open index.html
+  449  sudo apt-get update
+  450  clear
+  451  xdg-open index.html 
+  452  sudo apt-get install xdg-utils
+  453  xdg-open index.html 
+  454  xdg-open --version
+  455  xdg-open index.html
+  456  ls
+  457  cd proyectos/
+  458  ls
+  459  cd proyecto-2/
+  460  ls
+  461  xdg-open index.html
+  462  xdg-open ./index.html
+  463  xdg-open texto-1.txt 
+  464  ls
+  465  xdg-open index.css
+  466  xdg-open index.html
+  467  xdg-open README.md 
+  468  clear
+  469  xdg-open 'http://www.freedesktop.org/'
+  470  xdg-open 'https://platzi.com/home'xdg-open 'https://platzi.com/home'
+  471  nautilus
+  472  clear
+  473  wslview index.html 
+  474  wslview texto-1.txt 
+  475  cd ..
+  476  ls
+  477  cd proyecto-2/
+  478  ls
+  479  cd imagenes/
+  480  ls
+  481  wslview The_Last_Supper.jpg
+  482  alias platzi= "xdg-open 'https://platzi.com/home'"
+  483  alias platzi="xdg-open 'https://platzi.com/home'"
+  484  platzi
+  485  buenosDias
+  486  ls
+  487  cd ..
+  488  ls
+  489  wslview ./videos/.
+  490  ls
+  491  cd videos/
+  492  ls
+  493  ls -a
+  494  wslview ..mp4
+  495  cd ..
+  496  ls
+  497  code index.html 
+  498  ls -al
+  499  clear
+  500  platzi
+  501  alias ls
+  502  clar
+  503  clear
+  504  ls
+  505  ls 
+  506  ls -l
+  507  ls -lS
+  508  ls -lhS
+  509  cd videos/
+  510  ls
+  511  ls -la
+  512  wslview ..mp4
+  513  clear
+  514  ls
+  515  ls -al
+  516  wslview ..mp4
+  517  cd .
+  518  cd ..
+  519  ls
+  520  cd imagenes/
+  521  ls
+  522  wslview The_Last_Supper.jpg
+  523  clear
+  524  nautilus
+  525  clear
+  526  xdg-open The_Last_Supper.jpg
+  527  cd ..
+  528  ls
+  529  cd bi
+  530  cd videos/
+  531  ls
+  532  ls -a
+  533  xdg-open ..mp4
+  534  sudo apt-get install mplayer
+  535  clear
+  536  mplayer ..mp4 
+  537  ls
+  538  cd ..
+  539  ls
+  540  ls -l
+  541  less index.css
+  542  less index.html
+  543  less README.md 
+  544  cd imagenes/
+  545  ls
+  546  less The_Last_Supper.jpg
+  547  sudo apt install imageMagik
+  548  cd 
+  549  sudo apt install imagemagick
+  550  clear
+  551  convert logo: logo.gif
+  552  ls
+  553  open logo.gif 
+  554  less The_Last_Supper.jpg
+  555  less logo.gif 
+  556  ls
+  557  cd proyectos/
+  558  ls
+  559  cd proyecto-2/
+  560  ls
+  561  cd imagenes/
+  562  ls
+  563  less The_Last_Supper.jpg
+  564  clear
+  565  wslview The_Last_Supper.jpg
+  566  clear
+  567  nautilus
+  568  q
+  569  clear
+  570  ls
+  571  nautilus
+  572  cd 
+  573  ls
+  574  less logo.gif 
+  575  wlsview logo.gif 
+  576  wsl logo.gif 
+  577  wslview logo.gif 
+  578  clear
+  579  wslview logo.gif 
+  580  ls
+  581  cd proyectos/
+  582  ls
+  583  cd proyecto
+  584  ls
+  585  cd proyecto-2/
+  586  ls
+  587  ls -l
+  588  ls
+  589  wslview index.html
+  590  clear
+  591  cd videos/q
+  592  ls
+  593  cd videos/
+  594  ls
+  595  ls -a
+  596  wsl ..mp4
+  597  wslview ..mp4
+  598  clear
+  599  cd 
+  600  ls
+  601  cd proyectos/proyecto-2/
+  602  ls
+  603  xdg-open index.html 
+  604  xdg-open index.css
+  605  xdg-open texto-1.txt 
+  606  clear
+  607  platzi
+  608  ls
+  609  ls *.txt
+  610  ls *.txt -la
+  611  ls in??
+  612  ls
+  613  cd ima
+  614  cd imagenes/
+  615  ls
+  616  touch texto-imag.txt
+  617  ls
+  618  cd ..
+  619  ls *.txt -laS
+  620  ls file*
+  621  ls *file
+  622  ls l*
+  623  ls
+  624  ls le*
+  625  la file*
+  626  ls fil?
+  627  ls tx?
+  628  ls file???
+  629  ls file????
+  630  mv *.txt textos/
+  631  ls
+  632  mkdir textos
+  633  ls
+  634  mv *.txt textos/
+  635  ls
+  636  cd textos/
+  637  ls
+  638  echo "hola x2"
+  639  clear
+  640  sudo apt install cowsay
+  641  clear
+  642  sudo apt install lolcat
+  643  clear
+  644  cowsay "hola"
+  645  lolcat "hola"
+  646  echo "hola vaca" | lolcat 
+  647  cowsay "hola" | lolcat
+  648  clear
+  649  cowsay "hola" | lolcat | tee archivo.txt
+  650  ls
+  651  cat archivo.txt 
+  652  clear
+  653  cowsay -l
+  654  cowsay -bunny "hola"
+  655  cowsay -f -bunny "hola"
+  656  cowsay -f bunny "hola"
+  657  cowsay -l
+  658  cowsay -l | lolcat
+  659  cowsay -l |  lolcat -F 12 -d 5 -a
+  660  cowsay "hooooola" | lolcat -F 12 -d 5 -a
+  661  clear
+  662  cal
+  663  ls ; cal
+  664  ls -al ; cal
+  665  clear
+  666  ls & date 
+  667  ls & date & cal 
+  668  whoami
+  669  su root
+  670  whoami
+  671  su root
+  672  whoami
+  673  su root
+  674  whoami
+  675  su root
+  676  sudo -i
+  677  ls
+  678  clear
+  679  sudo -i
+  680  clear
+  681  cd 
+  682  ls
+  683  cd proyectos/
+  684  ls
+  685  cd proyecto-2/
+  686  ls
+  687  cd videos/
+  688  ls
+  689  wlsview ..mp4
+  690  wslview ..mp4
+  691  clear
+  692  cd ..
+  693  ls
+  694  cd imagenes/
+  695  ls
+  696  wsl The_Last_Supper.jpg
+  697  wslview The_Last_Supper.jpg
+  698  clear
+  699  nautilus
+  700  clera
+  701  clerar
+  702  whoami
+  703  lear
+  704  clear
+  705  cd 
+  706  ls
+  707  printenv
+  708  ls -l
+  709  pwd
+  710  ls
+  711  cd proyectos/
+  712  ls
+  713  cd proyecto-2/
+  714  ls
+  715  ln -s ~/proyectos/proyecto-2 proyecto
+  716  ls -l
+  717  cd 
+  718  cd proyectos
+  719  ls
+  720  cd ..
+  721  ls
+  722  cd proyecto
+  723  ls
+  724  cd proyectos/
+  725  ls
+  726  cd proyecto-2
+  727  ls
+  728  mv proyecto ~/
+  729  cd 
+  730  ls
+  731  cd proyecto
+  732  ls
+  733  cd 
+  734  ls
+  735  ls -l
+  736  ls
+  737  cd proyectos/proyecto-2/
+  738  ls
+  739  cd 
+  740  cd proyecto
+  741  ls
+  742  printenv
+  743  echo $PWD
+  744  pwd
+  745  echo $USER 
+  746  cd ~
+  747  cd proyecto
+  748  ls
+  749  cd $HOM
+  750  ls
+  751  cd proyecto
+  752  ls
+  753  cd $HOME
+  754  cd proyectos/proyecto-2/
+  755  ls
+  756  cd videos/
+  757  ls
+  758  cd $HOME
+  759  ls
+  760  echo $PATH 
+  761  ls -ls
+  762  ls -la
+  763  cat .bashrc
+  764  code .bashrc 
+  765  ls
+  766  ls -la
+  767  code .bashrc
+  768  ls
+  769  cd proyecto
+  770  ls
+  771  code index.html
+  772  sudo apt install code
+  773  ls
+  774  code index.html 
+  775  clear
+  776  passwd
+  777  clear
+  778  pwd
+  779  sudo -i
+  780  su root
+  781  sudo -i
+  782  ls
+  783  ls -al
+  784  pwd
+  785  cd ..
+  786  ls
+  787  cd root/
+  788  su cd root/
+  789  sudo cd root/
+  790  ls
+  791  su -i
+  792  sudo -i
+  793  l
+  794  ls -la
+  795  l
+  796  clear
+  797  whoami
+  798  ls
+  799  cd proyecto
+  800  ls
+  801  code index.html
+  802  cd 
+  803  ls
+  804  ls -la
+  805  code .bashrc
+  806  platzi
+  807  clear
+  808  bash
+  809  l
+  810  bash
+  811  l
+  812  bash
+  813  l
+  814  cd proyecto
+  815  ls
+  816  l
+  817  bash
+  818  l
+  819  ls -la
+  820  ls -lah
+  821  bash
+  822  l
+  823  echo l
+  824  cat l
+  825  bash
+  826  lx
+  827  l
+  828  bash
+  829  echo platzi_message
+  830  bashrc
+  831  bash
+  832  ls
+  833  l
+  834  echo platzi_message
+  835  echo $platzi_message
+  836  l
+  837  bash
+  838  l
+  839  ls
+  840  la
+  841  lx
+  842  l
+  843  lx
+  844  clear
+  845  lx
+  846  ls
+  847  lx
+  848  la
+  849  la -l
+  850  la -lh
+  851  lx
+  852  la -lhS
+  853  bash
+  854  la
+  855  bash
+  856  lx
+  857  clear
+  858  echo $PATH | tr : \\n | less
+  859  ls
+  860  cd proyecto
+  861  ls
+  862  cd videos/
+  863  ls
+  864  vlc ..mp4
+  865  sudo apt install vlc-bin
+  866  vlc ..mp4
+  867  cd ..
+  868  ls
+  869  cd imagenes/
+  870  ls
+  871  vlc The_Last_Supper.jpg
+  872  cd ..
+  873  ls
+  874  cd videos/
+  875  ls
+  876  lx
+  877  vlc *.mp4
+  878  sudo snap install vlc
+  879  % sudo snap install vlc
+  880  sudo snap install vlc
+  881  % sudo install vlc
+  882  sudo install vlc
+  883  vlc The_Last_Supper.jpg
+  884  vlc ..mp4
+  885  wslview ..mp4
+  886  lx
+  887  mplayer
+  888  ls
+  889  cd ..
+  890  ls
+  891  cd ..
+  892  ls
+  893  cd proyecto
+  894  ls
+  895  cd textos/
+  896  ls
+  897  find ./ -name '*.txt' > text_docs.txt && echo "Files saved succesfully"
+  898  ls
+  899  cat text_docs.txt 
+  900  clear
+  901  d:\Home\Downloads\movies_afffe2e6-a55c-47f0-8895-9d37c9cd9eb8.csv
+  902  d:\Home\Downloads\movies_afffe2e6-a55c-47f0-8895-9d37c9cd9eb8.csvd:\Home\Downloads\movies_afffe2e6-a55c-47f0-8895-9d37c9cd9eb8.csv
+  903  mv d:\Home\Downloads\movies_afffe2e6-a55c-47f0-8895-9d37c9cd9eb8.csv ./
+  904  mv ~\Downloads\movies_afffe2e6-a55c-47f0-8895-9d37c9cd9eb8.csv ./
+  905  ls
+  906  explorer.exe
+  907  explorer.exe ./
+  908  ls
+  909  explorer.exe ./
+  910  ls
+  911  cd ..
+  912  ls
+  913  mv movies_afffe2e6-a55c-47f0-8895-9d37c9cd9eb8.csv movies
+  914  ls
+  915  cd proyecto
+  916  ls
+  917  mv movies_afffe2e6-a55c-47f0-8895-9d37c9cd9eb8.csv.csv movies.csv
+  918  ls
+  919  rm movies_afffe2e6-a55c-47f0-8895-9d37c9cd9eb8.csv\:Zone.Identifier 
+  920  ls
+  921  grep towers movies.csv 
+  922  ls
+  923  lx
+  924  grep Towers movies.csv 
+  925  lx
+  926  ifconfig
+  927  sudo apt install net-tools
+  928  ifconfig
+  929  ping www.google.com
+  930  clear
+  931  zjip
+  932  sudo apt install zip
+  933  zip 
+  934  ps
+  935  top
+  936  ls
+  937  nano index.html
+  938  ls
+  939  cat index.html 
+  940  vim
+  941  vim index.html 
+  942  clear
+  943  nano index.html
+  944  vim index.html 
+  945  nano index.html 
+  946  clear
+  947  lx
+  948  clear
+  949  git clone https://github.com/marcelofarias/escuela-js.git
+  950  cd escuela-js/
+  951  ls
+  952  ls pwd
+  953  pwd
+  954  code .
+  955  ls
+  956  pwd
+  957  lx
+  958  L
+  959  ls
+  960  cd ..
+  961  ls
+  962  cd escuela-js/
+  963  ls
+  964  clear
+  965  ls
+  966  cd pro
+  967  cd proyecto
+  968  ls
+  969  ls 
+  970  cd ..
+  971  ls
+  972  cd ..
+  973  ls
+  974  cd pro
+  975  ls
+  976  cd eduardo26/
+  977  ls
+  978  cd proyecto
+  979  cd ..
+  980  ls
+  981  cd proyectos
+  982  ls
+  983  git clone git@github.com:marcelofarias/escuela-js.git
+  984  clear
+  985  ls
+  986  cd escuela-js/
+  987  ls
+  988  cd curso-frontend-developer/
+  989  ls
+  990  lx
+  991  ls
+  992  code .
+  993  cd ..
+  994  ls
+  995  cd ..
+  996  ls
+  997  cd proyecto-2/
+  998  ls
+  999  cd ..
+ 1000  ls
+ 1001  cd proyecto
+ 1002  ls
+ 1003  cd proyectos_ejemplo/
+ 1004  ls
+ 1005  cd ..
+ 1006  ls
+ 1007  git clonegit@github.com:eduardo202020/proyecto-git-gitHub.git
+ 1008  git clone git@github.com:eduardo202020/proyecto-git-gitHub.git
+ 1009  clear
+ 1010  ls
+ 1011  cd proyecto-git-gitHub/
+ 1012  ls
+ 1013  code .
+ 1014  clear
+ 1015  whoami
+ 1016  clar
+ 1017  cd 
+ 1018  ls
+ 1019  cd 
+ 1020  cd /
+ 1021  ls
+ 1022  lx
+ 1023  ls
+ 1024  cd home/
+ 1025  ls
+ 1026  cd ~
+ 1027  ls
+ 1028  cd /
+ 1029  ls
+ 1030  cd home/
+ 1031  cd eduardo26/
+ 1032  ls
+ 1033  tree
+ 1034  cleaar
+ 1035  clear
+ 1036  tree -L 2
+ 1037  ls
+ 1038  cd proyectos
+ 1039  ls
+ 1040  cd escuela-js/
+ 1041  ls
+ 1042  cd curso-frontend-developer/
+ 1043  ls
+ 1044  cd ..
+ 1045  ls
+ 1046  cd ..
+ 1047  ls
+ 1048  cd proyecto-2
+ 1049  ls
+ 1050  head README.md 
+ 1051  tail README.md 
+ 1052  head index.html 
+ 1053  tail index.html 
+ 1054  head index.html -n 2
+ 1055  tail index.html -n 2
+ 1056  clear
+ 1057  less index.html 
+ 1058  clear
+ 1059  xdg-open index.html 
+ 1060  xdg-open index.css 
+ 1061  clear
+ 1062  xdg-open README.md 
+ 1063  clear
+ 1064  nautilus
+ 1065  xdg_foreign
+ 1066  sudo apt install xdg_foreign
+ 1067  clear
+ 1068  lx
+ 1069  cd videos/
+ 1070  ls
+ 1071  lx
+ 1072  wslview ..mp4
+ 1073  clear
+ 1074  esplorer.exe
+ 1075  explorer.exee
+ 1076  explorer.exe
+ 1077  explorer.exe .
+ 1078  clear
+ 1079  ls
+ 1080  cd ..
+ 1081  ls
+ 1082  open file.
+ 1083  cmd.exe
+ 1084  lx
+ 1085  cd proyecto
+ 1086  ls
+ 1087  clear
+ 1088  ls
+ 1089  xdg-open 'https://platzi.com/home'
+ 1090  xdg-open 'https://youtu.be/f2MlR4HZW10?t=1943'
+ 1091  xdg-open 'https://youtu.be/f2MlR4HZW10?t=1943'click-action 'minimize'
+ 1092  xdg-open 'https://youtu.be/f2MlR4HZW10?t=1943' && click-action 'minimize'
+ 1093  xdg-open 'https://youtu.be/f2MlR4HZW10?t=1943' & click-action 'minimize'
+ 1094  xdg-open 'https://youtu.be/f2MlR4HZW10?t=1943' | click-action 'minimize'
+ 1095  click-action 'minimize'
+ 1096  xdg-open 'https://youtu.be/f2MlR4HZW10?t=1943'
+ 1097  clear
+ 1098  lx
+ 1099  xdg-open 'https://youtu.be/f2MlR4HZW10?t=1943' && nano README.md 
+ 1100  clear
+ 1101  xdg-open 'https://youtu.be/f2MlR4HZW10?t=1943' && nano README.md 
+ 1102  clear
+ 1103  xdg-open 'https://youtu.be/f2MlR4HZW10?t=1943' && nano README.md 
+ 1104  lx
+ 1105  lx > mitexto.txt
+ 1106  nano mitexto.txt 
+ 1107  cat mitexto.txt 
+ 1108  clear
+ 1109  history
+ 1110  history > mihistoria.txt | less
+ 1111  history > mihistoria.txt && less
+ 1112  history > mihistoria.txt & less
+ 1113  history > mihistoria.txt 
